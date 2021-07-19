@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/** TABLE OF CONTENTS
+ — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — /
+1 — Global Styles
+2 — Layout
+2.1 — Header
+2.2 — Jumbotron
+2.3 — Footer
+2.4 — Post Article
+2.5 —Activities
+3 — Page Specific CSS
+3.1 — Loading
+4 — Forms
+5 — Admin Branding
+5.1 — Admin Bar
+5.2 — Builder Styles
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — /
+/// END TABLE OF CONTENTS **/
+/** 1 - Global Styles
+------------------------------------------------------------*/
+html {
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #f4f4f4;
+}
+
+.title-hr {
+    border-top: 2px solid black;
+}
+
+/** 2 - Layout
+------------------------------------------------------------*/
+/* =========================
+2.1 - Header
+========================= */
+.navbar {
+    height: 10vh;
+}
+
+/* =========================
+2.2 - Jumbotron
+========================= */
+.jumbotron {
+    height: 90vh;
+    background-image: url("https://dummyimage.com/1920x1080/bababa/ffffff");
+}
+
+/* =========================
+2.3 - Footer
+========================= */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* =========================
+2.4 - Post Article
+========================= */
+.post-title {
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+/* =========================
+2.4 - Activities
+========================= */
+.activity-title {
+    font-weight: bold;
+}
+
+/** 3 - Page Specific CSS
+------------------------------------------------------------*/
+/* =========================
+3.1 - Loading
+========================= */
+/** 4 - Forms
+------------------------------------------------------------*/
+/*# sourceMappingURL=main.css.map */
